@@ -72,7 +72,7 @@ public class BungeeSkinAPI implements ChangeSkinAPI<ProxiedPlayer, LoginResult> 
                 }
             }
         } else {
-            applyProperties(loginProfile, targetSkin);
+            //applyProperties(loginProfile, targetSkin);
         }
 
         //send plugin channel update request
