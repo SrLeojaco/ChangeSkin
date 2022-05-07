@@ -72,6 +72,7 @@ public class BungeeSkinAPI implements ChangeSkinAPI<ProxiedPlayer, LoginResult> 
                 }
             }
         } else {
+            if (!core.getConfig().getBoolean("useAlwaysPremiumSkinRatherThanDatabaseOne"))
             applyProperties(loginProfile, targetSkin);
         }
 
